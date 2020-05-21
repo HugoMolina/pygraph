@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-""" Programa que lee el puerto serial y espera una secuencia JSON con la estructura """
+""" Programa que lee el puerto serial y espera una secuencia JSON con la estructura
+    x: analogo0, y: 40, z: 30
+    la cual es almacenada en forma de diccionario para posterior tratarlos como arrays
+    y graficarlos a velocidad usando numpy y pyqtgraph"""
+
 from pyqtgraph.Qt import QtGui, QtCore
 import pyqtgraph as pg
 import serial
